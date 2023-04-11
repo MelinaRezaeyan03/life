@@ -9,7 +9,15 @@ git remote add origin https://github.com/MelinaRezaeyan03/life.git
 git push -u origin main
 
 
---git status
---git rm Life.docx
---git restore Life.docx
+--git status مشاهده وضعیت یک پوشه
+--برای حذف کردن یک فایل از پوشه
+--git rm Start.txt        حذف یک فایل
+--git commit -m Start.txt  بروزآوری پوشه بر اساس فایل حذف شده   
+--git push origin main     انتقال آخرین وضعیت به روز آوری به آدرس وب بر اساس فایل حذف شده
 --git add Life.docx
+--git restore Life.docx    
+--برای اضافه کردن یک فایل به پوشه 
+--copy Start.bat c:\life\temp فایل را در پوشه مورد نظر کپی می کنیم
+--git add Start.txt
+--git commit -m Start.txt  بروزآوری پوشه بر اساس فایل اضافه شده   
+--git push origin main     انتقال آخرین وضعیت به روز آوری به آدرس وب بر اساس فایل اضافه شده
