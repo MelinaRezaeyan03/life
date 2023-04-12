@@ -1,3 +1,4 @@
+@Echo off
 path C:\Users\Rezaeyan\AppData\Local\GitHubDesktop\app-3.2.1\resources\app\git\cmd
 c:
 cd\Life
