@@ -3,6 +3,7 @@
 #include <string>
 using namespace std;
 
+
 string Genome::getComplement(string value) {
     string complement = "";
 
