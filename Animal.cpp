@@ -47,13 +47,10 @@ Animal Animal::asexualReproduction()
 
 Animal Animal::operator+(Animal otherAnimal)
 {
-	// ensure both animals have an even number of chromosomes
 	if (cells.size() % 2 == 1 || otherAnimal.cells.size() % 2 == 1) {
 		cout << "Cannot perform sexual reproduction with odd number of chromosomes" << endl;
 		return Animal({});
 	}
-
-	// create new chromosomes by randomly selecting half from each parent
 	vector<Cell> new_cells;
 	int num_chromosomes = cells.size();
 	for (int i = 0; i < num_chromosomes; i++) {
