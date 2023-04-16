@@ -8,7 +8,11 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    Genome genome = Genome("AATCCGATCCGCCTTA", "AATCCGATCCGCCTTA", "TTAGGCTAGGCGGAAT");
+        cout << "Melina Rezaeyan" << endl;
+	cout << "Stn : 401441228" << endl;
+	cout << "---------------\n\n";
+	
+	Genome genome = Genome("AATCCGATCCGCCTTA", "AATCCGATCCGCCTTA", "TTAGGCTAGGCGGAAT");
 	genome.createDNAFromRNA();
 
 	genome = Genome("ATCGATCG", "ACGGCCTAA", "TGCCGGATT");
